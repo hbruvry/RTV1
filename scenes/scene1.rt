@@ -1,0 +1,72 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    plane.rt                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: hbruvry <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/07/19 12:30:01 by hbruvry           #+#    #+#              #
+#    Updated: 2018/12/17 17:03:26 by hbruvry          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+scene
+{
+	name		= "Rtv1";
+	width		= 500;
+	height		= 500;
+	precision	= 1;
+}
+
+camera
+{
+	fov			= 120;
+	anchor		= {0, 0, 0};
+	radius		= 240;
+	longitude	= 90;
+	latitude	= 90;
+}
+
+light
+{
+	luminosity	= 5000000;
+	origin		= {-25, -100, 25};
+}
+
+object
+{
+	type		= "plane";
+	origin		= {0, 25, 0};
+	scale		= {100, 100, 100};
+	rotation	= {0, 0, 0};
+	color		= {255, 0, 255};
+}
+
+object
+{
+	type		= "sphere";
+	origin		= {20, -25, 0};
+	scale		= {50, 50, 50};
+	rotation	= {0, 0, 0};
+	color		= {255, 0, 0};
+}
+
+object
+{
+	type		= "cone";
+	angle		= 15;
+	origin		= {-25, -50, -50};
+	scale		= {100, 100, 100};
+	rotation	= {0, 0, 45};
+	color		= {0, 255, 0};
+}
+
+object
+{
+	type		= "cylinder";
+	origin		= {50, -25, 0};
+	scale		= {25, 25, 25};
+	rotation	= {0, 0, 10};
+	color		= {0, 0, 255};
+}
+
