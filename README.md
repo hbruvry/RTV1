@@ -1,4 +1,4 @@
-# RTV1
+# RTV1 (@42)
 First step to create a raytracing program (98/100)
 
 ## Objectives
