@@ -8,7 +8,7 @@ First step to create a raytracing program (98/100)
 - Cross-platform
 
 ## Skills
-- Rigor
+- Interpersonal
 - Linear algebra
 - Optimization
 - Graphics
