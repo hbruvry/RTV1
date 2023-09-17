@@ -9,8 +9,7 @@
 #                                                   +#+  +:+       +#+         #
 #    Created: 2018/06/12 04:20:00 by hbruvry      +#+#+#+#+#+   +#+            #
 #    Updated: 2018/12/17 04:20:00 by hbruvry           #+#    #+#              #
-#                                                     ###   ########.fr        #
-# n3®F * b3TT€r_n3®F * b3TT€r_n3®F * b3TT€r_n3®F * b3TT€r_n3®F * b3TT€r_n3®F * #
+# n3®F * b3TT€r_n3®F * b3TT€r_n3®F * b3TT€r_n3®F * b3 ### n ########.fr n3®F * #
 
 NAME =		rtv1
 
